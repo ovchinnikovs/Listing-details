@@ -1,0 +1,12 @@
+$primaryColor: #fff;
+
+@mixin display($size) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: $size;
+}
+
+.header-content {
+  @include display(60px);
+}
