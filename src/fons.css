@@ -25,7 +25,7 @@
   font-style: normal;
   font-weight: normal;
   src: local("AvenirNextCyr-DemiItalic"), url("./fons/AvenirNextCyr-DemiItalic.woff") format("woff");
-}                         
+}
 
 @font-face {
   font-family: "AvenirNextCyr-Thin";
