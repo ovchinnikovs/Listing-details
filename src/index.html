@@ -18,10 +18,10 @@
 
     <nav>
       <ul class="header-menu">
-        <li><a class="header-menu__link" href="#">Become a host</a></li>
-        <li><a class="header-menu__link" href="#">Trips</a></li>
-        <li><a class="header-menu__link" href="#">Messages</a></li>
-        <li><a class="header-menu__link header-menu__link_img" href="#"></a></li>
+        <li><a class="header-menu__link" href="javascript:void(0)">Become a host</a></li>
+        <li><a class="header-menu__link" href="javascript:void(0)">Trips</a></li>
+        <li><a class="header-menu__link" href="javascript:void(0)">Messages</a></li>
+        <li><a class="header-menu__link header-menu__link_img" href="javascript:void(0)"></a></li>
       </ul>
     </nav>
   </div>
@@ -36,9 +36,9 @@
 
       <span class="sub-title">Entire apartment</span>
       <div class="content-box-one-text">
-        <span class="content-box-one-text__item">4 guests</span>
-        <span class="content-box-one-text__item">1 bed</span>
-        <span class="content-box-one-text__item">1 bath</span>
+        <a class="content-box-one-text__item content-box-one-text__item_border" href="javascript:void(0)">4 guests</a>
+        <a class="content-box-one-text__item content-box-one-text__item_border" href="javascript:void(0)">1 bed</a>
+        <a class="content-box-one-text__item content-box-one-text__item_border" href="javascript:void(0)">1 bath</a>
       </div>
 
       <p class="paragraph">City Apartment is newly renovated in the heart of Budapest, right in
@@ -46,30 +46,31 @@
         elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         Ut enim ad minim veniam.</p>
 
-        <span class="content-box-one-text__item">Contact host</span>
+        <a class="content-box-one-text__item content-box-one-text__item_color" href="javascript:void(0)">Contact host</a>
     </div>
 
     <div class="content-box-one__item">
       <span class="content-box-one-text__item">25$ per night</span>
 
-      <input class="content-box-one-form" type="text" name="Date" placeholder="Date" required>
-      <input class="content-box-one-form" type="text" name="Guests" placeholder="Guests" required>
-
-      <a class="content-box-one-button" href="#">Book</a>
+      <form action="#"></form>
+        <input class="content-box-one-form" type="text" name="Date" placeholder="Date" required>
+        <input class="content-box-one-form" type="number" name="Guests" min="1" placeholder="Guests" required>
+        <input class="content-box-one-submit" type="submit" value="Book">
+      </form>
     </div>
   </section>
 
   <section class="content-box-two container">
     <span class="content-box-two__text">Amenities</span>
 
-    <div class="text-box">
-      <span class="text-box__item">Elevator</span>
-      <span class="text-box__item">Hair dryer</span>
-      <span class="text-box__item">Washer</span>
-      <span class="text-box__item">Kitchen</span>
-    </div>
+    <ul class="link-box">
+      <li class="link-box__item"><a class="link-box__link" href="javascript:void(0)">Elevator</a></li>
+      <li class="link-box__item"><a class="link-box__link" href="javascript:void(0)">Hair dryer</a></li>
+      <li class="link-box__item"><a class="link-box__link" href="javascript:void(0)">Washer</a></li>
+      <li class="link-box__item"><a class="link-box__link" href="javascript:void(0)">Kitchen</a></li>
+    </ul>
 
-    <span class="content-box-two__text">Show All Amenities</span>
+    <a class="content-box-two__text content-box-two__text_color " href="javascript:void(0)">Show All Amenities</a>
   </section>
 
   <section class="content-box-three container">
@@ -79,7 +80,7 @@
       <div class="person-img"></div>
 
       <div class="person">
-        <span class="name">John</span>
+        <span class="person-name">John</span>
         <span class="person-date">September 2016</span>
       </div>
 
@@ -91,7 +92,7 @@
       <div class="person-img"></div>
 
       <div class="person">
-        <span class="name">John</span>
+        <span class="person-name">John</span>
         <span class="person-date">September 2016</span>
       </div>
 
@@ -113,9 +114,8 @@
       <span class="mobile-form__text">25$ per night</span>
 
       <input class="mobile-form__input" type="text" name="Date" placeholder="Date" required>
-      <input class="mobile-form__input" type="text" name="Guests" placeholder="Guests" required>
-
-      <a class="mobile-form__button" href="#">Book</a>
+      <input class="mobile-form__input" type="number" name="Guests" min="1" placeholder="Guests" required>
+      <input class="mobile-form__submit" type="submit" value="Book">
       </div>
   </section>
 </main>
