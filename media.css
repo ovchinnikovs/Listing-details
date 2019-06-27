@@ -108,6 +108,17 @@
   }
 }
 
+@media only screen and (max-width:390px) {
+
+  .link-box {
+    width: 290px;
+  }
+
+  .link-box__item {
+    width: 145px;
+  }
+}
+
 @media only screen and (max-width:340px) {
   .header-menu {
     width: 230px;
